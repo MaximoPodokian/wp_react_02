@@ -1,0 +1,11 @@
+.estiloNumber {
+  display: flex;
+  color: white;
+  height: 4 rem;
+  justify-content: center;
+}
+
+.carrito {
+  display: flex;
+  justify-content: end;
+}
