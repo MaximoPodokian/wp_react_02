@@ -1,11 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CartWidget from "../CartWidget";
 import "./style.css";
 
 const NavBar = () => {
   return (
-    <div>
+    <div>   
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
           <Link to="/">
@@ -49,9 +48,9 @@ const NavBar = () => {
               </li>
             </ul>
           </div>
-        </div>
-        <CartWidget />
+        </div>   
       </nav>
+      
     </div>
   );
 };

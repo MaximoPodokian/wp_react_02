@@ -4,11 +4,12 @@ import Home from "./components/Links/Home";
 import Items from "./components/Links/Items";
 import Offers from "./components/Links/Offers";
 import Contact from "./components/Links/Contact";
+import ItemListContainer from "./components/ItemListContainer/itemListContainer";
 import './index.css';
 import "./App.css";
 
 function App() {
-  return (
+  return ( 
     <BrowserRouter>
       <Layout>
         <Routes>
@@ -18,7 +19,9 @@ function App() {
           <Route exact path="/contacto" element={<Contact />} />  
         </Routes>
       </Layout>
+      <ItemListContainer/>
     </BrowserRouter>
+    
   );
 }
 
