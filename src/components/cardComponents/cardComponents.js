@@ -7,22 +7,22 @@ import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 import "./cardComponents.css"
 
-const cardComponents = (data) => {
+const cardComponents = ({data}) => {
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardActionArea>
         <CardMedia
           component="img"
           height="140"
-          image={data.avatar_url}
+          image={data.strDrink}
           alt="imagen de producto"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            {data.login}
+            {data.idDrink}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            {data.url}
+            {data.strDrink}
           </Typography>
         </CardContent>
       </CardActionArea>

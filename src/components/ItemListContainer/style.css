@@ -1,13 +1,7 @@
 .recuadroPantallaPrincipal {
-  border: 3px solid #165480;
   margin-top: 1rem;
   margin-left: 10px;
   width: 1900px;
-  height: 750px;
-}
+  height: 1200px;
+};
 
-.mensajePantallaPrincipal {
-  color: black;
-  font-size: 2rem;
-  text-align: center;
-}

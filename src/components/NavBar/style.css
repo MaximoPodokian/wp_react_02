@@ -1,11 +1,17 @@
 .estiloNumber {
   display: flex;
   color: white;
-  height: 4 rem;
+  height: 2 rem;
   justify-content: center;
 }
 
 .carrito {
   display: flex;
   justify-content: end;
+}
+
+.mensajePantallaPrincipal {
+  color: rgb(180, 38, 38);
+  font-size: 2rem;
+  text-align: center;
 }

@@ -4,7 +4,7 @@ import "./style.css";
 
 const NavBar = () => {
   return (
-    <div>   
+    <div>    
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
           <Link to="/">
@@ -48,9 +48,10 @@ const NavBar = () => {
               </li>
             </ul>
           </div>
+          
         </div>   
       </nav>
-      
+      <p className="mensajePantallaPrincipal"> Bienvenido a la Tienda !!!</p>
     </div>
   );
 };

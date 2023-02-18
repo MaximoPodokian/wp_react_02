@@ -6,18 +6,17 @@ const ItemListContainer = ({ greeting }) => {
 const [users, setUsers] = useState([])
 
 useEffect(() =>{
-  fetch('https://api.github.com/users')
+  fetch('https://www.thecocktaildb.com/api/json/v1/1/filter.php?a=Alcoholic')
   .then(response => response.json())
   .then(json => setUsers(json));
 }, []);
 
 
-  return (
+  return (   
     <div className="cards-List  recuadroPantallaPrincipal">
-     <p className="mensajePantallaPrincipal"> Bienvenido a la Tienda !!!</p> 
-    {users.map((users) => {
+    {users.map((users => {
       return <CardComponents data={users}/>;
-     }) };
+    }))};
      </div>
   );
 };
